@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+
+# Experiment tracking & data
+mlruns/
+data/
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Docker stuff (we only want the Dockerfile, not the image)
+*.tar
+
+# Model files? They're in Docker image, but we can keep them locally
+# Uncomment the next lines if you want to ignore the model too
+# model/
+# preprocess/
+# reference_data.csv

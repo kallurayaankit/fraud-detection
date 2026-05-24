@@ -1,0 +1,9 @@
+fastapi==0.136.1
+uvicorn[standard]==0.34.2
+confluent-kafka==2.14.0
+joblib==1.5.3
+pandas==2.3.3
+scikit-learn==1.6.1
+evidently==0.4.39
+prometheus-client==0.21.1
+requests==2.34.2
